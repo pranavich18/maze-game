@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color: #CCFFBD;
+}
+
+#maze{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: #28FFBF;
+}
+
+table td{
+    border: 2px #362222 solid;
+}
+
+table{
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+    display: inline-grid;
+    line-height: 1.5;
+  }

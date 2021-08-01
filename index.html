@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <br>
+    <div>
+        <button onclick= "alert('Press UpArrow or W for moving up, DownArrow or D for moving down, LeftArrow or A for moving left and RightArrow or D for moving right.');">
+            Click to know instructions!!
+        </button>
+    </div>
+    <br>
+    <div id="options">
+        <fieldset>
+            <label for="easy"><input onclick="setLevelEasy()" type="radio" id="easy" name="level" checked>EASY</label><br>
+            <label for="medium"><input onclick="setLevelMedium()" type="radio" id="medium" name="level">MEDIUM</label><br>
+            <label for="hard"><input onclick="setLevelHard()" type="radio" id="hard" name="level">HARD</label><br>
+            <p id="p">Press Enter to Start Game!!</p>
+        </fieldset>
+    </div>
+    <div id="instruc">
+    </div>
+    <div id="time">
+    </div>
+    <br>
+    <div id="maze">
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
