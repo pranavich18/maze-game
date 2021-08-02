@@ -24,3 +24,4 @@ Resources:
 3. https://medium.com/@hugofqueiros/sorting-schwartzian-transform-88565c379385
 
 ### Game Link:
+https://pranavich18.github.io/maze-game/
