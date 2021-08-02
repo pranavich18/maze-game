@@ -10,7 +10,7 @@ This contains the following features:
 6. Timer(Bonus)
 
 ## Maze Generation
-It uses a  **RECURSIVE BACKTRACKING ALGORITHM** which uses depth-first search to visit the unvisited cells and carve out walls to generate a different maze each time.
+It uses a  **RECURSIVE BACKTRACKING ALGORITHM** which uses depth-first search to visit the unvisited cells and carve out walls to generate a different maze each time. The random sort for choosing a different direction to move in out of the four is being done by Schwartzian's Transform which adds more generality and randomness in maze generation.
 
 #### Algorithm:
 1. Choose a starting point in the field.
@@ -21,5 +21,6 @@ It uses a  **RECURSIVE BACKTRACKING ALGORITHM** which uses depth-first search to
 Resources: 
 1. http://weblog.jamisbuck.org/2010/12/27/maze-generation-recursive-backtracking
 2. https://www.w3schools.com/js/js_htmldom.asp
+3. https://medium.com/@hugofqueiros/sorting-schwartzian-transform-88565c379385
 
 ### Game Link:
